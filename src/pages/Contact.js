@@ -2,7 +2,7 @@ import './Contact.css';
 import { useState } from 'react';
 
 const Contact = () => {
-  const [url, setUrl] = useState('');
+  const [url, setUrl] = useState('https://');
   const [qrCode, setQrCode] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -20,6 +20,11 @@ const Contact = () => {
     generateQRCode();
   };
 
+  const handleUrlChange = (e) => {
+    const value = e.target.value;
+    setUrl(value);
+  };
+
   return (
     <section className="contact">
       <h1>Contact Page</h1>
@@ -29,7 +34,8 @@ const Contact = () => {
           <input
             type="url"
             value={url}
-            onChange={(e) => setUrl(e.target.value)}
+            onChange={handleUrlChange}
+            // onChange={(e) => setUrl(e.target.value)}
             required
           />
         </label>
