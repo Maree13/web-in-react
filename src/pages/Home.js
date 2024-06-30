@@ -7,8 +7,8 @@ import TabsComponent from '../components/TabsComponent';
 
 const texts = [
   'Lorem ipsum dolor sit amet consectetur adipisicing.',
-  'Another set of yellow words here for testing.',
-  'Different yellow words here now and forever.',
+  'Another set of pink words here for testing.',
+  'Different pink words here now and forever.',
 ];
 
 const getRandomText = () => {
@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <div className="home">
       <img src={logo} alt="Logo" className="logo" />
-      <h1>Na priklad nieco nieco</h1>
+      <h1>Pink Kitty Art</h1>
       {highlightedText && (
         <h2>
           <span className="highlight">{highlightedText.highlighted}</span>{' '}

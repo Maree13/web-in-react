@@ -9,21 +9,21 @@ const allCards = [
     image: image1,
     title: 'Title 1',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus dolor vitae ex ultrices.',
   },
   {
     id: 2,
     image: image2,
     title: 'Title 2',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas',
+      'Aenean euismod, turpis eget ultricies tincidunt, arcu lorem pellentesque eros, non tempor orci.',
   },
   {
     id: 3,
     image: image3,
     title: 'Title 3',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas',
+      'Sed quis lacus in velit ultrices pretium. Curabitur ac sem sit amet urna hendrerit condimentum.',
   },
   {
     id: 4,

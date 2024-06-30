@@ -4,13 +4,14 @@
 }
 
 .logo {
-  width: 100px;
+  /* width: 200px; */
   height: auto;
+  margin-bottom: 40px;
 }
 
 h1 {
   font-size: 2.5em;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 h2 {
@@ -18,7 +19,7 @@ h2 {
 }
 
 .highlight {
-  color: rgb(209, 44, 71);
+  color: rgb(239, 148, 172);
 }
 
 .cards-container {
@@ -27,6 +28,7 @@ h2 {
   align-items: flex-start;
   flex-wrap: wrap;
   margin-top: 40px;
+  gap: 20px;
 }
 
 
@@ -35,16 +37,3 @@ h2 {
   text-align: left;
   max-width: 300px;
 }
-
-/* img {
-  background-size: cover;
-  border-radius: 3px; 
-  transition: transform 0.5s ease;
-} */
-
-/* .image1:hover,
-.image2:hover,
-.image3:hover {
-  .image4:hover {
-    transform: scale(1.07);}
-    /* Zväčšenie o 5% */

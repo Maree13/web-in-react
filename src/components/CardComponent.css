@@ -1,15 +1,44 @@
 .card {
   text-align: center;
-  margin: 20px;
+  margin: 50px 20px;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 300px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  /* Pridajte padding podľa potreby */
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .card img {
-  width: 100px;
-  height: auto;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
   display: block;
-  margin: 10px auto;
-  /* background-size: cover;
-  border-radius: 3px; 
-  transition: transform 0.5s ease; */
+  margin: 40px auto;
+  background-size: cover;
+  border-radius: 3px;
+  transition: transform 0.5s ease;
+}
+
+.card img:hover {
+  transform: scale(1.07);
+}
+
+.card h2 {
+  padding: 10px;
+  /* margin: 0; */
+}
+
+.card p {
+  flex-grow: 1;
+  /* Umožní, aby text zaberel zvyšok dostupného miesta */
+  text-align: center;
+  margin: 10px 0 0;
+  /* Pridajte margin podľa potreby */
 }
