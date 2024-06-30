@@ -4,20 +4,22 @@
 }
 
 form {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   font-size: 1.2em;
 }
 
 input {
   padding: 10px;
   font-size: 1em;
-  margin-right: 10px;
+  margin: 20px;
   width: 300px;
+  /* color: rgb(239, 148, 172); */
+  color: #555;
 }
 
 button {
@@ -35,9 +37,13 @@ button:hover {
 }
 
 .qr-code {
-  margin-top: 20px;
+  margin: 50px;
 }
 
 .qr-code img {
-  border: 1px solid #333;
+  /* border: 1px solid #333; */
+}
+
+.contact h1 {
+  margin: 70px 0 100px 0;
 }

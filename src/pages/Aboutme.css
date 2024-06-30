@@ -12,7 +12,8 @@
 .aboutme-image {
   max-width: 300px;
   height: auto;
-  margin-bottom: 20px;
+  margin: 60px 0 80px 0;
+  border-radius: 3px;
 }
 
 .aboutme p {

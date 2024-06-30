@@ -7,27 +7,26 @@
 
 /* BODY */
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  height: 100%;
   /* background-color: #f0f0f0;
   color: #333; */
-  height: 100%;
-  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-size: 21px;
 }
 
-/* #root {
+/* pridane test */
+
+#root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-} */
+}
 
-/* .main-content {
+.main-content {
   flex: 1;
-} */
-
-
-
-
-
+}
