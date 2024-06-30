@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f8f8;
+  /* Prípadne farbu pozadia */
+}
+
+.logo {
+  width: 50px;
+  /* Prípadne veľkosť loga */
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  /* Rozostupy medzi odkazmi */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  /* Prípadne farbu textu */
+}

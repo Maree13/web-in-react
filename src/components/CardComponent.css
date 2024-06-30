@@ -1,0 +1,15 @@
+.card {
+  text-align: center;
+  margin: 20px;
+  flex: 1;
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  /* background-size: cover;
+  border-radius: 3px; 
+  transition: transform 0.5s ease; */
+}

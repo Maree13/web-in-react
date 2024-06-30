@@ -1,0 +1,50 @@
+.home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.highlight {
+  color: rgb(209, 44, 71);
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+
+.card {
+  padding: 20px;
+  text-align: left;
+  max-width: 300px;
+}
+
+/* img {
+  background-size: cover;
+  border-radius: 3px; 
+  transition: transform 0.5s ease;
+} */
+
+/* .image1:hover,
+.image2:hover,
+.image3:hover {
+  .image4:hover {
+    transform: scale(1.07);}
+    /* Zväčšenie o 5% */

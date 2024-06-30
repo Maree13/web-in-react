@@ -1,0 +1,23 @@
+.aboutme {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.aboutme h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.aboutme-image {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.aboutme p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
