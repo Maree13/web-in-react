@@ -1,6 +1,19 @@
 .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   text-align: center;
   margin-top: 50px;
+}
+
+.contact-block {
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 400px;
+  width: 100%;
+  margin: 10px;
 }
 
 form {
@@ -17,7 +30,8 @@ input {
   padding: 10px;
   font-size: 1em;
   margin: 20px;
-  width: 300px;
+  /* width: 300px; */
+  width: calc(100% - 22px);
   /* color: rgb(239, 148, 172); */
   color: #555;
 }
@@ -37,13 +51,27 @@ button:hover {
 }
 
 .qr-code {
-  margin: 50px;
+  text-align: center;
+  /* margin: 50px; */
 }
 
 .qr-code img {
+  margin-top: 10px;
   /* border: 1px solid #333; */
 }
 
 .contact h1 {
   margin: 70px 0 100px 0;
 }
+
+/* Media query pre mobily */
+/* @media (max-width: 600px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-block {
+    max-width: 100%;
+  } 
+}*/

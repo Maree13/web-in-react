@@ -20,3 +20,7 @@
   text-decoration: none;
   color: #333;
 }
+
+.menu a:hover {
+  color: rgb(239, 148, 172);
+}

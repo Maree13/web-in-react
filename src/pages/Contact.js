@@ -28,19 +28,21 @@ const Contact = () => {
   return (
     <section className="contact">
       <h1>Contact Page</h1>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Enter URL:
-          <input
-            type="url"
-            value={url}
-            onChange={handleUrlChange}
-            // onChange={(e) => setUrl(e.target.value)}
-            required
-          />
-        </label>
-        <button type="submit">Generate QR Code</button>
-      </form>
+      <div className="contact-block">
+        <form onSubmit={handleSubmit}>
+          <label>
+            Enter URL:
+            <input
+              type="url"
+              value={url}
+              onChange={handleUrlChange}
+              // onChange={(e) => setUrl(e.target.value)}
+              required
+            />
+          </label>
+          <button type="submit">Generate QR Code</button>
+        </form>
+      </div>
       {loading && <h2>Generating QR Code...</h2>}
       {qrCode && !loading && (
         <div className="qr-code">
