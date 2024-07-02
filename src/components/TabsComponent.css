@@ -44,3 +44,16 @@
 .tab-content p {
   margin: 20px 0 0;
 }
+
+/* Media query pre mobily */
+@media (max-width: 600px) {
+  .tabs-container {
+    /* padding: 20px 40px; */
+  }
+
+  .tab {
+    font-size: 18px;
+    padding: 8px 15px;
+  }
+
+}
